@@ -20,6 +20,8 @@ if (playgame){
             playagain ? location.reload() : alert("ok, thanks for playing");  
         }else{
             alert("you didnt enter the required choices");
+            let tryagain = prompt("please enter rock paper scissors");
+            tryagain ? location.reload() : alert("ok, thanks for playing");
         }
     }else{
         alert("i guess you changed your mind. maybe nexttime.");
